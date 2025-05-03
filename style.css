@@ -174,3 +174,44 @@ body {
 .bg-box .bg:nth-child(4).active {
   clip-path: circle(75% at 50% 50%);
 }
+
+
+@media (max-width: 768px) {
+    .carsousel {
+      padding: 0 2%;
+    }
+  
+    .box-info .list-info {
+      transform: none !important;
+    }
+  
+    .list-img {
+      transform: none !important;
+    }
+  
+    .item img {
+      max-width: 90%;
+      right: 5%;
+    }
+  
+    .info h2 {
+      font-size: 1.5rem;
+    }
+  
+    .info p {
+      font-size: 0.9rem;
+    }
+  
+    .btn {
+      width: 130px;
+      height: 40px;
+      font-size: 13px;
+    }
+  
+    .navigation span {
+      width: 40px;
+      height: 40px;
+      font-size: 24px;
+    }
+  }
+  
